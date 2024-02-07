@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="weather">
+            <label for="city">Enter City:</label>
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()">Get Weather</button>
+
+            <div id="weather-info">
+                    <h2>New York, US</h2>
+                    <p>Clear sky</p>
+                    <p>Temperature: 22°C</p>
+                    <p>Humidity: 50%</p>
+
+                    <h2>DURGAPUR, TS</h2>
+                    <p>cloudy</p>
+                    <p>Temperature: 20°C</p>
+                    <p>Humidity: 30%</p>
+                <!-- Weather information will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
